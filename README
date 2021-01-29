@@ -1,0 +1,19 @@
+Psi4GUI
+--------
+A jupyter/voila interface to run Psi4 calculations using 
+NGLview or pymol3D rederization of orbitals
+
+Currently, the project contains:
+
+* Psi4GUI.ipynb:
+Minimal working example. Include metadata on each
+cell so to properly show the stack with:
+voila --template=gridstack Psi4GUI.ipynb [--theme dark]
+
+* Psi4GUI-Testing.ipynb:
+Includes some additional steps (including geom scan)
+
+* hf.xyz:
+Sample input geometry
+
+
